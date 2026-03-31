@@ -207,3 +207,5 @@ JOIN employee_certifications ec ON e.employee_id = ec.emp_id
 JOIN certifications c ON ec.certification_id = c.certification_id
 ORDER BY employee_name;
 
+
+
